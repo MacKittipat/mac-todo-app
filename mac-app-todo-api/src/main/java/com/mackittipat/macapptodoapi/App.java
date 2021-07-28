@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MacAppTodoApiApplication {
+public class App {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MacAppTodoApiApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(App.class, args);
+    }
 
 }
