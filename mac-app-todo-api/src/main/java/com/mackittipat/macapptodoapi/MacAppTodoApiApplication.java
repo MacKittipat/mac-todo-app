@@ -1,0 +1,13 @@
+package com.mackittipat.macapptodoapi;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MacAppTodoApiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MacAppTodoApiApplication.class, args);
+	}
+
+}
