@@ -12,6 +12,9 @@ http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd">
             <column name="id" type="int" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
+            <column name="uuid" type="text">
+                <constraints nullable="false"/>
+            </column>
             <column name="message" type="text">
                 <constraints nullable="false"/>
             </column>

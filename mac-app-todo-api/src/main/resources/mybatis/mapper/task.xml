@@ -6,8 +6,8 @@
 <mapper namespace="com.mackittipat.macapptodoapi.mapper.TaskMapper">
 
     <insert id="create" parameterType="Task" useGeneratedKeys="true" keyProperty="id">
-        INSERT INTO task (message, start_date, end_date, created_date)
-        VALUES (#{message}, #{startDate}, #{endDate}, #{createdDate})
+        INSERT INTO task (uuid, message, start_date, end_date, created_date)
+        VALUES (#{uuid}, #{message}, #{startDate}, #{endDate}, #{createdDate})
     </insert>
 
 </mapper>
